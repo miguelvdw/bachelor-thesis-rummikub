@@ -1,0 +1,18 @@
+# build output
+rummikub
+*.o
+
+# generated data (puzzle files and features can get very large)
+*.in
+!examples/*.in
+*.csv
+scores.txt
+
+# Python / editors / OS
+__pycache__/
+.venv/
+.vscode/
+.DS_Store
+
+# output of classify_difficulty.py
+results/
